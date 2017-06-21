@@ -27,7 +27,7 @@ a {
   width: 100%; }
 
 .title h2 {
-  color: #F45B69;
+  color: #6B2737;
   font-size: 40px;
   margin-bottom: 30px; }
 
@@ -36,38 +36,40 @@ a {
   text-align: center; }
 
 #summary-wrapper {
-  align-items: center;
-  display: flex;
-  justify-content: space-around; }
+  display: block; }
+
+#summary-pic {
+  display: inline-block;
+  float: right;
+  margin: 0 0 10px 10px;
+  width: 25%; }
 
 #summary-text {
+  display: inline-block;
   margin-left: 50px; }
-
-#summary-text p {
-  color: #fff;
-  font-size: 20px;
-  margin-bottom: 20px; }
+  #summary-text p {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px; }
 
 #summary-resume {
   display: flex;
   justify-content: center;
   margin-top: 40px; }
-
-#summary-resume a {
-  color: #fff;
-  background-color: #6B2737;
-  border: 2px #fff solid;
-  border-radius: 4px;
-  font-size: 20px;
-  padding: 30px;
-  text-align: center;
-  -webkit-transition: all 0.5s ease;
-  width: 25%; }
-
-#summary-resume a:hover {
-  color: #6B2737;
-  background-color: #F45B69;
-  border: 2px #6B2737 solid; }
+  #summary-resume a {
+    color: #fff;
+    background-color: #6B2737;
+    border: 2px #fff solid;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+    -webkit-transition: all 0.5s ease;
+    width: 25%; }
+    #summary-resume a:hover {
+      color: #6B2737;
+      background-color: #F45B69;
+      border: 2px #6B2737 solid; }
 
 @media screen and (max-width: 950px) {
   #summary-wrapper {
