@@ -13,7 +13,7 @@
 	display: inline-block;
 	float: right;
 	margin: 0 0 10px 10px;
-	width: 25%;
+	width: 300px;
 }
 
 #summary-text {
@@ -27,7 +27,7 @@
 	}
 }
 
-#summary-resume {
+#summary-button {
 	display: flex;
 	justify-content: center;
 	margin-top: 40px;
@@ -62,6 +62,16 @@
 	}
 
 	#summary-text {
+		margin-left: 0;
 		width: 100%;
+	}
+
+	#summary-button {
+		display: block;
+
+		a {
+			display: block;
+			width: 90%;
+		}
 	}
 }

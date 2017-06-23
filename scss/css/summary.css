@@ -31,6 +31,12 @@ a {
   font-size: 40px;
   margin-bottom: 30px; }
 
+@media screen and (max-width: 654px) {
+  .title h2 {
+    font-size: 35px; } }
+@media screen and (max-width: 464px) {
+  .container {
+    margin: 25px 50px; } }
 #summary-title {
   display: block;
   text-align: center; }
@@ -42,7 +48,7 @@ a {
   display: inline-block;
   float: right;
   margin: 0 0 10px 10px;
-  width: 25%; }
+  width: 300px; }
 
 #summary-text {
   display: inline-block;
@@ -52,11 +58,11 @@ a {
     font-size: 20px;
     margin-bottom: 20px; }
 
-#summary-resume {
+#summary-button {
   display: flex;
   justify-content: center;
   margin-top: 40px; }
-  #summary-resume a {
+  #summary-button a {
     color: #fff;
     background-color: #6B2737;
     border: 2px #fff solid;
@@ -66,7 +72,7 @@ a {
     text-align: center;
     -webkit-transition: all 0.5s ease;
     width: 25%; }
-    #summary-resume a:hover {
+    #summary-button a:hover {
       color: #6B2737;
       background-color: #F45B69;
       border: 2px #6B2737 solid; }
@@ -80,6 +86,13 @@ a {
     display: none; }
 
   #summary-text {
-    width: 100%; } }
+    margin-left: 0;
+    width: 100%; }
+
+  #summary-button {
+    display: block; }
+    #summary-button a {
+      display: block;
+      width: 90%; } }
 
 /*# sourceMappingURL=summary.css.map */
